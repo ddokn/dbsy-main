@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ko">
   <head>
-    <!-- Required meta tags -->
+    <!-- Required meta tags --> 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no">
@@ -266,6 +266,7 @@
     <script type="text/javascript" src="./resource/js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="./resource/js/bootstrap.bundle.min.js"></script>
     <script>
+
         let options = {
             threshold: 1.0
         }
@@ -284,7 +285,7 @@
         let container = document.querySelectorAll('.ani-container');
         for ( i = 0; i < container.length; i++ ) {
             observer.observe(container[i])
-        }
+        } 
 
         $('#accordionExample').on('shown.bs.collapse', function() {
             $('.show').parent('.card').toggleClass('active', true);
